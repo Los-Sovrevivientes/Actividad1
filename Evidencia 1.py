@@ -39,7 +39,7 @@ while ciclo:
             Parametro_1 = str(input("Ingrese el nombre del archivo que se movera de directorio: "))
             Parametro_2 = str(input("Ingrese el nombre del directorio como destino: "))
             shutil.move(Parametro_1,Parametro_2)
-            print(f"Se ha copiado con exito los datos de archivo {Parametro_1} al archivo {Parametro_2}")
+            print(f"Se ha movido con exito el archivo '{Parametro_1}' a la carpeta '{Parametro_2}'")
             seguir = int(input("¿Desea mover otro archivo en otro directorio?, 1 para seguir --- 0 para terminar: "))
             
             if seguir == 0:
